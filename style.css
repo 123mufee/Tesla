@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #171a28;
+}
+
+    
+
+header{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 5px 10px;
+    position:fixed;
+    top:0;
+    z-index: 2;
+    width: 100%;
+}
+ .logo{
+    height: 12px;
+    width: 100px;
+    color: inherit;
+}
+header a{
+    color: inherit;
+}
+header nav a{
+    text-decoration: none;
+    padding: 5px 10px;
+    text-align: center;
+}
+header nav.center{
+    text-align:center;
+}
+header nav.right{
+    text-align: center;
+}
+.box1{
+    width: 250px;
+    height: 30px;
+    margin-left: 1150px;
+    margin-top: -23px;
+    
+}
+.box1 a{
+    display: inline-block;
+}
+section{
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+section .content{
+    
+    width: 100%;
+    height: 80vh;
+    padding-top: 15vh;
+    padding-bottom:15vh;
+    text-align:center;
+    display:grid;
+    grid-template-rows: min-content auto min-content;
+
+}
+
+section h1{
+    font-size: 3rem;
+}
+section a{
+    color: inherit;
+}
+
+.section.links{
+    position: fixed;
+    margin-top:42% ;
+    margin-left: 30%;
+    background-color: aqua;
+}
+.links .custom{
+    padding:10px 80px;
+    text-decoration: none;
+    color:white;
+    background-color: rgb(37,37,37);
+    border-radius: 3px;
+    margin-left: 500px;
+}
+.links .existing{
+    padding:10px 80px;
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.section.buttons{
+    position: fixed;
+    margin-top:42% ;
+    margin-left: 30%;
+    background-color: aqua;
+}
+.buttons .butt{
+    padding:10px 100px;
+    text-decoration: none;
+    color:white;
+    background-color: rgb(37,37,37);
+    border-radius: 3px;
+    margin-left: 500px;
+    margin-left: 630px;
+}
+
+ .footer{
+    padding:  0;
+    margin:25px;
+    background-color:#FFFFFF ;
+    text-align: center;
+    
+}
+.footer ul{
+    
+    
+    list-style: none;
+    font-size: 14px;
+    margin-bottom: 0;
+
+}
+.footer ul a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.footer ul li{
+    display: inline-block;
+    
+    padding: 0 10px;
+}
